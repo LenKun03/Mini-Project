@@ -1,0 +1,47 @@
+.cutoff-container {
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cutoff-container h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.cutoff-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.cutoff-table th,
+.cutoff-table td {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.cutoff-table th {
+  background-color: #2980b9;
+  color: white;
+}
+
+.cutoff-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.back-home {
+  padding: 10px 16px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.back-home:hover {
+  background-color: #cf7119;
+}
